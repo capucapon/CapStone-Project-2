@@ -1,0 +1,104 @@
+.body {
+    color: #40514e;
+    align-items: center;
+}
+
+.entry {
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+}
+
+.name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5vw;
+  font-family: Lucida Handwriting, cursive;
+}
+
+.int-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-picture {
+   position: relative;
+   display: block;
+   border-radius: 50%;
+   margin-top: 5rem;
+   margin-bottom: 2rem;
+   top: 50%;
+   left: 42%;
+   width: 15vw;
+}
+
+.introduce {
+    display: block;
+   font-size: 2rem;
+   font-style: Helvetica, sans-serif;
+   text-align: center;
+   margin-top: 5vw;
+   color: coral;
+    
+}
+
+.personal {
+    display: block;
+   font-size: 1.5rem;
+   font-style: Helvetica, sans-serif;
+   text-align: center;
+   margin-top: 2vw;
+}
+
+h2 {
+    display: block;
+   font-size: 2rem;
+   font-style: Helvetica, sans-serif;
+   text-align: center;
+   margin-top: 2rem;
+   color: coral;
+}
+
+.skills {
+    margin-top: 5vw;
+    
+
+}
+hr {
+    margin: 3vw;
+    clear: both;
+}
+
+.code {
+    width: 30vw;
+    float: left;
+    
+    align-items: center;
+    margin: 3vw;
+}
+
+span {
+    color: coral;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2vw;
+
+}
+
+.skill {
+    display: block;
+    justify-content: center;
+    margin: 5vw;
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    background-color: coral;
+    padding: 3vw;
+    margin: 3vw;
+}
